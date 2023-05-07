@@ -22,10 +22,10 @@ export default App
 
 
 function Modal({ type, setModal }) {
-  let errorMessage = `This is an error modal.
-  Error modals are used to inform the user that something has gone wrong or some particular operation has failed to execute properly.`
+  let errorMessage = `This is an error modal. 
+  Error modals are typically used to inform the user that something has gone wrong.`
 
-  let successMessage = `This is an success modal.
+  let successMessage = `This is an success modal. 
   Success modals are used to inform the user that a particular operation has successfully completed.`
 
   return (
