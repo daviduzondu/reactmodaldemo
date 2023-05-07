@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <button onClick={() => setModal([true, "error"])}>Show Error Modal</button>
-      <button onClick={() => setModal([true, "success"])}>Show Sucess Modal</button>
+      <button onClick={() => setModal([true, "success"])}>Show Success Modal</button>
       {
         modal[0] && ReactDOM.createPortal(
           <Modal type={modal[1]} setModal={() => setModal} />,
